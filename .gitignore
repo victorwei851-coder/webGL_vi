@@ -23,6 +23,9 @@ build/
 *.tsbuildinfo
 
 # 本地环境文件（含天地图 key，不上传）
+.env.local
+.env.*.local
+/src/config/*.local.js
 
 # 本地地图数据（自行上传的 shp / geojson 等）
 /data/
