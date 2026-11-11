@@ -2,7 +2,7 @@
 import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { createCesiumResourceManager } from '@/cesium/CesiumResourceManager'
 import { useMapStore } from '@/stores/map'
-import huanggangBoundary from '../../../statics/黄冈市.json'
+import huanggangBoundary from '../../../statics/demo1.json'
 import { useCesiumViewer } from './useCesiumViewer'
 import { deviceMethods, devices, renderDeviceIcons } from './deviceIcons'
 import { createProgressiveLoader, DEFAULT_LOAD_TEST_PARAMS } from './loadTest'

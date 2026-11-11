@@ -1,5 +1,5 @@
 import * as Cesium from 'cesium'
-import huanggang from '../../../statics/黄冈市.json'
+import huanggang from '../../../statics/demo1.json'
 import icon1 from '../../../statics/icon/icon1.png'
 import icon2 from '../../../statics/icon/icon2.png'
 import icon3 from '../../../statics/icon/icon3.png'

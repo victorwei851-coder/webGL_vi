@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, reactive, ref, watch } from 'vue'
-import huanggangBoundary from '../../../statics/黄冈市.json'
+import huanggangBoundary from '../../../statics/demo1.json'
 import snowTextureUrl from '../../../statics/weather/snow.png'
 import { summarizeGeoJson } from './geoBoundary'
 import { DEFAULT_WEATHER_OPTIONS } from './weather'
