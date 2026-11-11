@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+@mixin panel {
+  background: rgba(20, 28, 49, 0.86);
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+}
+
+@mixin scrollable {
+  overflow: auto;
+  scrollbar-width: thin;
+}
