@@ -27,8 +27,8 @@ npm run dev
 | 路径 | 内容 |
 | --- | --- |
 | `/` | 主页、状态总览与设计说明 |
-| `/cesium` | 天地图底图 + 黄冈市边界 + 设备图标渲染方式切换 + 首屏万级点位分帧加载测试 |
-| `/three` | 黄冈市立体板块 + 光效 / 天气控制器 |
+| `/cesium` | 天地图底图 + demo边界 + 设备图标渲染方式切换 + 首屏万级点位分帧加载测试 |
+| `/three` | demo立体板块 + 光效 / 天气控制器 |
 | `/upload` | 上传边界文件、回显边界、配置中心点与相机焦距 |
 
 生产构建与本地预览：
@@ -96,7 +96,7 @@ export const TIANDITU_KEY = '你的天地图key'
 
 ## 四、其它说明
 
-- 默认边界数据为 `statics/黄冈市.json`；设备图标位于 `statics/icon/`，雪花贴图为 `statics/weather/snow.png`。
+- 默认边界数据为 `statics/demo1.json`；设备图标位于 `statics/icon/`，雪花贴图为 `statics/weather/snow.png`。
 - Cesium 的运行时静态资源由 `vite-plugin-static-copy` 从 `node_modules/cesium/Build/Cesium` 拷贝到 `dist/cesium`，`CESIUM_BASE_URL` 为 `/cesium/`；构建后若 Cesium 报资源 404，先检查该目录是否生成。
 - 上传页支持 shp / GeoJSON 等边界文件；投影坐标目前只做提示，不会自动转换到 WGS84。
 - 若 key 曾随文件被提交进历史，仅移除索引无法清除历史记录，建议到天地图平台轮换该 key。
